@@ -1,0 +1,258 @@
+body{
+    background-color: #ccc;
+}
+a{
+    color: #155faa;
+}
+a:hover{
+    color: #499ef3;
+    text-decoration: none;
+}
+.main{
+    margin: 1% 2%;
+    padding: 20px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.main .content{
+    padding: 20px 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-bottom: 1px solid #eee;
+}
+.main .tagDiv{
+    padding: 8px 10px 10px 10px;
+}
+.main .tags{
+    float: left;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 12px;
+    padding-top: 4px;
+}
+
+.tab-tags-inline-block{
+    display: inline-block !important;
+}
+
+.btn-publish {
+    float: right;
+}
+.btn-comment{
+    margin-top: 10px ;
+    float: right;
+}
+.alertMsg{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
+.alert-error{
+    padding: 8px 22px  !important;
+    margin-bottom: 0 !important;
+}
+.media-object{
+    width: 42px;
+    height: 42px;
+}
+.media_list{
+    padding-top: 10px;
+    border-top:1px solid #f5f5f5;
+}
+
+.col-left{
+    border-right:1px solid #f5f5f5;
+}
+
+.noArticle{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.aboutArticle ul{
+    padding: 0;
+}
+.aboutArticle ul li{
+
+    margin: 5px;
+    list-style: none;
+}
+
+.page-right{
+    text-align: right;
+}
+
+.detail-msg{
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.jumbotron{
+    padding: 50px 60px;
+}
+.link-items{
+    font-size: 15px;
+    display: inline-block;
+    float: right;
+
+}
+
+.comment-content{
+    display:block;
+    width:100%;
+    padding:7px 8px;
+    background:#fff;
+    border:1px solid #c1c1c1;
+    border-radius:4px;resize:none;height:60px;font-size:14px;line-height:22px;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition:height .3s ease-in-out;transition:height .3s ease-in-out
+}
+
+.comment-content{
+    height: 80px;
+}
+.d-flex{
+    display: flex !important;
+}
+.media-comment{
+    margin-top: 1px;
+    margin-right: 8px;
+}
+
+.img-comment{
+    width:30px;
+    height: 30px;
+}
+
+.comment{
+    padding-top: 10px;
+    border-top:1px solid #f5f5f5;
+}
+.notLogin{
+    cursor: pointer;
+    text-align: center;
+}
+.operate{
+    display: inline-block;
+
+    width: 45px;
+    height: 30px;
+    max-width: 50px;
+    max-height: 30px;
+    text-align: center;
+    border: #f5f5f5 solid 1px;
+    border-radius: 4px;
+    padding: 3px 2px;
+    margin: 4px 2px 4px 0;
+    cursor: pointer;
+}
+.operate span{
+    font-size: 12px;
+
+}
+.operate:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #499ef3;
+}
+
+.comment-style{
+    margin-left: 38px;
+}
+
+.comment-body{
+
+}
+.comment-footer{
+
+}
+
+.childCol{
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.operateBgColor{
+    color: white;
+    background-color: #499ef3;
+}
+
+.comment-detail{
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+.childCol .comment-detail:last-child{
+    border-bottom: none;
+}
+.comment-comment{
+    margin-top: 15px;
+}
+
+.float-right{
+    font-size: 12px;
+    float: right;
+}
+.tab-content{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 0 0 4px 4px;
+    margin-bottom: 10px;
+}
+.nav-tabs{
+    border-bottom: none !important;
+}
+.glyphicon-envelope{
+    margin-top: 2px;
+}
+.notification-yellow-point{
+    position: absolute;
+    top: 16px;
+    right: 8px;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: rgb(255, 0, 0);
+}
+
+.newBadge{
+    padding: 2px 5px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    line-height: 1;
+    background-color: #d9534f;
+}
+.notification-label{
+    line-height: 2;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+.notification-margin{
+    margin-bottom: 10px;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.form-relative{
+    position: relative;
+}
+
+.btn-search{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.navbar-form{
+    border-top: none;
+}
+
+
+.li-inline-block{
+    display: inline-block !important;
+    margin-left: 10px;
+    /*position: absolute !important;*/
+}
